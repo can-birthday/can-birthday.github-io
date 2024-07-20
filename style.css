@@ -66,6 +66,20 @@ html {
   color: var(--color-primary);
 }
 
+.btn-audio-container {
+  position: absolute;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  height: 100vh;
+  width: 100%;
+}
+
+.btn-audio {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  cursor: pointer;
+}
+
 /* Navbar */
 .navbar {
   position: fixed;

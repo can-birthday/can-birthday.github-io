@@ -100,3 +100,10 @@ const openVid3 = () => {
   vid3.classList.remove("d-none");
   vid3.autoplay = true;
 }
+
+// Audio
+function playAudio() {
+  var audio = document.getElementById('player');
+  audio.play();
+}
+playAudio();
