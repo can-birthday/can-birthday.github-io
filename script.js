@@ -105,5 +105,5 @@ const openVid3 = () => {
 function playAudio() {
   var audio = document.getElementById('player');
   audio.play();
+  audio.loop = true;
 }
-playAudio();

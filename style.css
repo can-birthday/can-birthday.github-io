@@ -223,6 +223,17 @@ html {
   color: var(--color-primary);
 }
 
+.home .home-content .fa-play {
+  color: var(--color-muted);
+  margin-right: 30px;
+  transition: color 0.3s ease;
+  transform: scale(1.2);
+}
+
+.home .home-content .fa-play:hover {
+  color: var(--color-primary);
+}
+
 .home .home-content .fa-gift {
   color: var(--color-muted);
   transition: color 0.3s ease;
